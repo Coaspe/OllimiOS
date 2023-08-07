@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3246E4AF2A812E0200159DA2 /* OllimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4AE2A812E0200159DA2 /* OllimApp.swift */; };
+		3246E4B12A812E0200159DA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4B02A812E0200159DA2 /* ContentView.swift */; };
+		3246E4B32A812E0300159DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246E4B22A812E0300159DA2 /* Assets.xcassets */; };
+		3246E4B62A812E0300159DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246E4B52A812E0300159DA2 /* Preview Assets.xcassets */; };
+		3246E4C02A812E0300159DA2 /* OllimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4BF2A812E0300159DA2 /* OllimTests.swift */; };
+		3246E4CA2A812E0300159DA2 /* OllimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4C92A812E0300159DA2 /* OllimUITests.swift */; };
+		3246E4CC2A812E0300159DA2 /* OllimUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4CB2A812E0300159DA2 /* OllimUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3246E4BC2A812E0300159DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3246E4A32A812E0200159DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3246E4AA2A812E0200159DA2;
+			remoteInfo = Ollim;
+		};
+		3246E4C62A812E0300159DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3246E4A32A812E0200159DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3246E4AA2A812E0200159DA2;
+			remoteInfo = Ollim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3246E4AB2A812E0200159DA2 /* Ollim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ollim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3246E4AE2A812E0200159DA2 /* OllimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllimApp.swift; sourceTree = "<group>"; };
+		3246E4B02A812E0200159DA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3246E4B22A812E0300159DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3246E4B52A812E0300159DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3246E4BB2A812E0300159DA2 /* OllimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OllimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3246E4BF2A812E0300159DA2 /* OllimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllimTests.swift; sourceTree = "<group>"; };
+		3246E4C52A812E0300159DA2 /* OllimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OllimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3246E4C92A812E0300159DA2 /* OllimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllimUITests.swift; sourceTree = "<group>"; };
+		3246E4CB2A812E0300159DA2 /* OllimUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllimUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3246E4A82A812E0200159DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246E4B82A812E0300159DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246E4C22A812E0300159DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3246E4A22A812E0200159DA2 = {
+			isa = PBXGroup;
+			children = (
+				3246E4AD2A812E0200159DA2 /* Ollim */,
+				3246E4BE2A812E0300159DA2 /* OllimTests */,
+				3246E4C82A812E0300159DA2 /* OllimUITests */,
+				3246E4AC2A812E0200159DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3246E4AC2A812E0200159DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3246E4AB2A812E0200159DA2 /* Ollim.app */,
+				3246E4BB2A812E0300159DA2 /* OllimTests.xctest */,
+				3246E4C52A812E0300159DA2 /* OllimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3246E4AD2A812E0200159DA2 /* Ollim */ = {
+			isa = PBXGroup;
+			children = (
+				3246E4AE2A812E0200159DA2 /* OllimApp.swift */,
+				3246E4B02A812E0200159DA2 /* ContentView.swift */,
+				3246E4B22A812E0300159DA2 /* Assets.xcassets */,
+				3246E4B42A812E0300159DA2 /* Preview Content */,
+			);
+			path = Ollim;
+			sourceTree = "<group>";
+		};
+		3246E4B42A812E0300159DA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3246E4B52A812E0300159DA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3246E4BE2A812E0300159DA2 /* OllimTests */ = {
+			isa = PBXGroup;
+			children = (
+				3246E4BF2A812E0300159DA2 /* OllimTests.swift */,
+			);
+			path = OllimTests;
+			sourceTree = "<group>";
+		};
+		3246E4C82A812E0300159DA2 /* OllimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3246E4C92A812E0300159DA2 /* OllimUITests.swift */,
+				3246E4CB2A812E0300159DA2 /* OllimUITestsLaunchTests.swift */,
+			);
+			path = OllimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3246E4AA2A812E0200159DA2 /* Ollim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3246E4CF2A812E0300159DA2 /* Build configuration list for PBXNativeTarget "Ollim" */;
+			buildPhases = (
+				3246E4A72A812E0200159DA2 /* Sources */,
+				3246E4A82A812E0200159DA2 /* Frameworks */,
+				3246E4A92A812E0200159DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ollim;
+			productName = Ollim;
+			productReference = 3246E4AB2A812E0200159DA2 /* Ollim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3246E4BA2A812E0300159DA2 /* OllimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3246E4D22A812E0300159DA2 /* Build configuration list for PBXNativeTarget "OllimTests" */;
+			buildPhases = (
+				3246E4B72A812E0300159DA2 /* Sources */,
+				3246E4B82A812E0300159DA2 /* Frameworks */,
+				3246E4B92A812E0300159DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3246E4BD2A812E0300159DA2 /* PBXTargetDependency */,
+			);
+			name = OllimTests;
+			productName = OllimTests;
+			productReference = 3246E4BB2A812E0300159DA2 /* OllimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3246E4C42A812E0300159DA2 /* OllimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3246E4D52A812E0300159DA2 /* Build configuration list for PBXNativeTarget "OllimUITests" */;
+			buildPhases = (
+				3246E4C12A812E0300159DA2 /* Sources */,
+				3246E4C22A812E0300159DA2 /* Frameworks */,
+				3246E4C32A812E0300159DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3246E4C72A812E0300159DA2 /* PBXTargetDependency */,
+			);
+			name = OllimUITests;
+			productName = OllimUITests;
+			productReference = 3246E4C52A812E0300159DA2 /* OllimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3246E4A32A812E0200159DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3246E4AA2A812E0200159DA2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3246E4BA2A812E0300159DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3246E4AA2A812E0200159DA2;
+					};
+					3246E4C42A812E0300159DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3246E4AA2A812E0200159DA2;
+					};
+				};
+			};
+			buildConfigurationList = 3246E4A62A812E0200159DA2 /* Build configuration list for PBXProject "Ollim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3246E4A22A812E0200159DA2;
+			productRefGroup = 3246E4AC2A812E0200159DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3246E4AA2A812E0200159DA2 /* Ollim */,
+				3246E4BA2A812E0300159DA2 /* OllimTests */,
+				3246E4C42A812E0300159DA2 /* OllimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3246E4A92A812E0200159DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246E4B62A812E0300159DA2 /* Preview Assets.xcassets in Resources */,
+				3246E4B32A812E0300159DA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246E4B92A812E0300159DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246E4C32A812E0300159DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3246E4A72A812E0200159DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246E4B12A812E0200159DA2 /* ContentView.swift in Sources */,
+				3246E4AF2A812E0200159DA2 /* OllimApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246E4B72A812E0300159DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246E4C02A812E0300159DA2 /* OllimTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246E4C12A812E0300159DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246E4CC2A812E0300159DA2 /* OllimUITestsLaunchTests.swift in Sources */,
+				3246E4CA2A812E0300159DA2 /* OllimUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3246E4BD2A812E0300159DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3246E4AA2A812E0200159DA2 /* Ollim */;
+			targetProxy = 3246E4BC2A812E0300159DA2 /* PBXContainerItemProxy */;
+		};
+		3246E4C72A812E0300159DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3246E4AA2A812E0200159DA2 /* Ollim */;
+			targetProxy = 3246E4C62A812E0300159DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3246E4CD2A812E0300159DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3246E4CE2A812E0300159DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3246E4D02A812E0300159DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ollim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coaspe.Ollim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3246E4D12A812E0300159DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ollim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coaspe.Ollim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3246E4D32A812E0300159DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coaspe.OllimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ollim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ollim";
+			};
+			name = Debug;
+		};
+		3246E4D42A812E0300159DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coaspe.OllimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ollim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ollim";
+			};
+			name = Release;
+		};
+		3246E4D62A812E0300159DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coaspe.OllimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ollim;
+			};
+			name = Debug;
+		};
+		3246E4D72A812E0300159DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Coaspe.OllimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ollim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3246E4A62A812E0200159DA2 /* Build configuration list for PBXProject "Ollim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246E4CD2A812E0300159DA2 /* Debug */,
+				3246E4CE2A812E0300159DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3246E4CF2A812E0300159DA2 /* Build configuration list for PBXNativeTarget "Ollim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246E4D02A812E0300159DA2 /* Debug */,
+				3246E4D12A812E0300159DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3246E4D22A812E0300159DA2 /* Build configuration list for PBXNativeTarget "OllimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246E4D32A812E0300159DA2 /* Debug */,
+				3246E4D42A812E0300159DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3246E4D52A812E0300159DA2 /* Build configuration list for PBXNativeTarget "OllimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246E4D62A812E0300159DA2 /* Debug */,
+				3246E4D72A812E0300159DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3246E4A32A812E0200159DA2 /* Project object */;
+}
