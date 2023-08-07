@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3246E4AF2A812E0200159DA2 /* OllimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4AE2A812E0200159DA2 /* OllimApp.swift */; };
-		3246E4B12A812E0200159DA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4B02A812E0200159DA2 /* ContentView.swift */; };
+		3246E4B12A812E0200159DA2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4B02A812E0200159DA2 /* LoginView.swift */; };
 		3246E4B32A812E0300159DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246E4B22A812E0300159DA2 /* Assets.xcassets */; };
 		3246E4B62A812E0300159DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246E4B52A812E0300159DA2 /* Preview Assets.xcassets */; };
 		3246E4C02A812E0300159DA2 /* OllimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246E4BF2A812E0300159DA2 /* OllimTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		3246E4AB2A812E0200159DA2 /* Ollim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ollim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3246E4AE2A812E0200159DA2 /* OllimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OllimApp.swift; sourceTree = "<group>"; };
-		3246E4B02A812E0200159DA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3246E4B02A812E0200159DA2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3246E4B22A812E0300159DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3246E4B52A812E0300159DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3246E4BB2A812E0300159DA2 /* OllimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OllimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				3246E4AE2A812E0200159DA2 /* OllimApp.swift */,
-				3246E4B02A812E0200159DA2 /* ContentView.swift */,
+				3246E4B02A812E0200159DA2 /* LoginView.swift */,
 				3246E4B22A812E0300159DA2 /* Assets.xcassets */,
 				3246E4B42A812E0300159DA2 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3246E4B12A812E0200159DA2 /* ContentView.swift in Sources */,
+				3246E4B12A812E0200159DA2 /* LoginView.swift in Sources */,
 				3246E4AF2A812E0200159DA2 /* OllimApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
